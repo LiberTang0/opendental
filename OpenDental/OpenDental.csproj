@@ -87,7 +87,7 @@
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
-    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <DefineConstants>
     </DefineConstants>
   </PropertyGroup>
@@ -7790,10 +7790,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Shared Projects Subversion\EHR\EHR_16_1\EHR\xEHR.csproj">
-      <Project>{5abf1d9d-2b93-4217-afa6-9eeccf6f525f}</Project>
-      <Name>xEHR</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CodeBase\xCodeBase.csproj">
       <Project>{18F7BC78-4B99-48D3-A1F1-0D13A63E3CF9}</Project>
       <Name>xCodeBase</Name>
