@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ConnectionSettings>
+  <DatabaseConnection>
+    <ComputerName>localhost</ComputerName>
+    <Database>opendental</Database>
+    <User>opendental</User>
+    <Password></Password>
+    <NoShowOnStartup>True</NoShowOnStartup>
+  </DatabaseConnection>
+</ConnectionSettings>
