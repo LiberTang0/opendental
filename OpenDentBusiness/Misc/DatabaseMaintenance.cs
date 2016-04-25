@@ -5984,7 +5984,7 @@ HAVING cnt>1";
 			if(RemotingClient.RemotingRole==RemotingRole.ClientWeb) {
 				return Meth.GetString(MethodBase.GetCurrentMethod());
 			}
-			string command="SHOW GLOBAL VARIABLES LIKE 'storage_engine'";
+			string command="SHOW GLOBAL VARIABLES LIKE '%storage%engine'";
 			DataTable dtEngine=Db.GetTable(command);
 			if(dtEngine.Rows.Count>0) {
 				try {
