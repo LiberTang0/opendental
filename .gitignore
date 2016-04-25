@@ -1,6 +1,6 @@
 .svn
 *.suo
-*.user
+*/*.user
 *.userosscache
 *.sln.docstates
 *.userprefs
@@ -16,3 +16,4 @@ bld/
 [Bb]in/
 [Oo]bj/
 .vs/
+OpenDental/FreeDentalConfig.xml
